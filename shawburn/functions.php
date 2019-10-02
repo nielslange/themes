@@ -194,8 +194,6 @@ function shawburn_body_classes( $classes ) {
 		$classes[] = 'has-no-social-menu';
 	}
 
-	$classes[] = 'hide-homepage-title';
-
 	return $classes;
 
 }
