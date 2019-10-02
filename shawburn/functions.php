@@ -186,7 +186,7 @@ add_action( 'enqueue_block_editor_assets', 'shawburn_editor_styles' );
  * Add custom body classes.
  *
  * @param array $classes The existing body classes.
- * @return mixed $classes The updated body classes.
+ * @return array $classes The updated body classes.
  */
 function shawburn_body_classes( $classes ) {
 
